@@ -35,17 +35,17 @@ while (exibirMenu)
             es.AdicionarVeiculo();
             break;
 
-        case "2":
-            es.RemoverVeiculo();
-            break;
+         case "2":
+             es.RemoverVeiculo();
+             break;
 
-        case "3":
-            es.ListarVeiculos();
-            break;
+         case "3":
+             es.ListarVeiculos();
+             break;
 
-        case "4":
-            exibirMenu = false;
-            break;
+         case "4":
+             exibirMenu = false;
+             break;
 
         default:
             Console.WriteLine("Opção inválida");
